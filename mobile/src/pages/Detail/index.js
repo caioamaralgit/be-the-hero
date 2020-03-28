@@ -1,11 +1,10 @@
 import React from 'react';
-import { View, Image, Text, Linking } from 'react-native';
+import { View, Image, Text, Linking, TouchableOpacity } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import * as MailCompose from 'expo-mail-composer';
 
 import styles from './styles';
 import logoImg from '../../assets/logo.png';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 import { useNavigation, useRoute } from '@react-navigation/native';
 
 export default function Detail() {
